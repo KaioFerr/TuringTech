@@ -1,0 +1,86 @@
+:root{
+    --color-background-header: #018776;
+    --font-color-header: #ffffff;
+    --font-color-hover: #00DFC0;
+    --font-color-main: #000000;
+    --font-color-title: #018776;
+    --font-family: "Montserrat";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--color-background-header);
+    text-align: center; 
+    padding: 10px;
+    font-family: --font-family;
+    color: var(--font-color-header);
+    height: 80px;
+}
+
+.header-information {
+    padding: 15px;
+}
+
+.pages {
+    font-size: 16px;
+    color: var(--font-color-header);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--font-color-hover)
+}
+
+.main-information {
+    text-align: center;
+}
+
+#text-message {
+    color: var(--font-color-main);
+    font-size: 24px;
+    padding: 50px 445px;
+    font-family:var(--font-family);
+    text-align: justify;
+}
+#text-message-home {
+    color: var(--font-color-main);
+    font-size: 32px;
+    padding: 50px 445px;
+    font-family:var(--font-family);
+    text-align: justify;
+}
+
+strong {
+    color: var(--font-color-title)
+}
+
+
+img {
+    width: 420px;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+article {
+    padding: 20px 0;
+}
+
+.contact {
+    padding: 10px 0px;
+}
+
+footer {
+    background-color: var(--color-background-header);
+    text-align: center; 
+    padding: 10px;  
+    color: var(--font-color-header);
+}
+
+
